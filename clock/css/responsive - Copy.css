@@ -1,0 +1,19 @@
+/*==========  Mobile First Method  ==========*/
+/* Extra small devices (phones, less than 420px) */
+@media only screen and (min-width:100px) { 
+   }
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (min-width:420px) { 
+  
+}
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width:768px) { 
+  
+}
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width:992px) { 
+ }
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width:1200px) { 
+    body { background: #ffffff }
+    }

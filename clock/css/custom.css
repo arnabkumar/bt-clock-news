@@ -1,0 +1,322 @@
+   /* ==============================================
+
+Template: etwoz 404 
+Version: 1.0
+Author:	Arnab Kumar Halder
+
+ 1. General setting
+ 2. header_top_area
+ 3. header_nav_area 
+ 4. main_content_area 
+ 5. footer_top_section 
+ 6. footer_social_area  
+ 7. copyright 
+================================================ */                       
+
+
+/* ------------------
+   1. General setting
+-------------------- */ 
+* {margin:0;padding:0}
+body {font-family:arial;font-size:14px;line-height:18px;color:#444;background:#ffffff;}
+a {text-decoration:none;color:#000}
+a:hover {text-decoration:none}
+/* this code for bootstrap a:visited, a:focus, a:active none */
+a:visited, a:focus, a:active{text-decoration:none;outline:none;}
+img {
+  max-width:100%;
+  width: 100%;
+  height:auto;
+}
+
+/* This class and code for also wordpress align */
+.alignleft {float:left;margin-right:10px}
+.alignright {float:right;margin-left:10px}
+.aligncenter {display:block;margin:0 auto}
+.floatleft {float:left}
+.floatright {float:right}
+.container {transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+/*------------------
+2. header_top_area
+------------------*/
+section.header_top_area {
+  background: #FFFFFF;
+  color: #000000;
+}
+div.logo h2 {
+ color: #389dc7;
+font-family: arial;
+font-size: 4em;
+font-weight: bold;
+text-transform: uppercase;
+}
+div.header_slogen p {
+  font-size: 1.4em;
+  font-family: arial;
+  line-height: 1.3em;
+  margin: 24px auto;
+}
+div.logo {
+  position: relative;
+}
+div.logo:before {
+  content: "";
+  background: #000000;
+  width: 2px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  margin-top: -30px;
+  right: 0;
+}
+
+
+.header_right_so li {
+ display: inline-block;
+font-size: 30px;
+margin: 10px 15px 10px 0;
+}
+div.header_right div.input-group span.input-group-btn button#addressSearch {
+  background: #389dc7;
+  color: #ffffff;
+}
+/*-------------------
+3. nav_area 
+-------------*/
+section.header_nav_area {
+  background: none repeat scroll 0 0 #ffffff;
+color: #000000;
+position: relative;
+z-index: 9;
+}
+.nav_conte {
+height: 60px;
+min-height: 60px;
+width: 100%;
+}
+div.nav_conte hr.h_one {
+  border-width: 5px 0 0;
+   margin-bottom: 5px;
+    margin-top: 5px;
+}
+.navbar-nav > li {
+  border-right: 2px solid #eee;
+}
+.navbar-nav > li:last-child {
+  border-right: 0px solid #eee;
+}
+.navbar-nav > li > a {
+  padding: 15px 30px;
+  font-size: 17px;
+}
+.navbar-nav > li.active > a, .navbar-nav > li > a:hover{
+  background:#389dc7;color:#ffffff
+}
+
+/*--------------
+4. main_content_area
+------------------*/
+/* main_content_left */
+div.main_content_left {
+  margin-top: 1%;
+}
+div.main_content_right {
+  margin-top: 1%;
+}
+.carousel-control {
+  top: 50%;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-control.right {
+  background-image: none;
+}
+.selected img {
+	opacity:0.5;
+}
+div#slider-thumbs {
+  margin-top: 1%;
+}
+ul.col-8-ul{text-align:center;}
+li.col-8{
+display: inline-block;
+width: 11.5%;
+}
+
+/* featured_header */
+div.featured_header {
+  margin: 5px 0 20px;
+}
+
+/* featured_post_sidebar */
+div.featured_post_sidebar {
+  background: url("../images/f_s_bg.jpg") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+padding-bottom: 45px;
+}
+div.featured_post_sidebar_ul {
+margin-top: 15%;
+padding: 50px 15px 15px;
+position: relative;
+z-index: 0;
+}
+div.featured_post_sidebar_h3 {
+  background: #389dc7;
+color: #ffffff;
+height: 70px;
+left: 50%;
+line-height: 70px;
+margin-left: -25%;
+position: absolute;
+text-align: center;
+top: 0;
+width: 50%;
+z-index: 0;
+}
+.featured_post_sidebar_h3 > h3 {
+  margin: 10px auto;
+}
+div.main_content_right div.well div.input-group span.input-group-btn button {
+  background: #389dc7;
+  color: #ffffff;
+}
+/* tab */
+div.tab_post .nav-tabs > li.active > a, div.tab_post .nav-tabs > li.active > a:focus, div.tab_post .nav-tabs > li.active > a:hover {
+  background: #389dc7;
+  color: #ffffff;
+}
+div.tab_post .nav > li > a:focus, .nav > li > a:hover {
+  background: #389dc7;
+  color: #ffffff;
+}
+.media:first-child {
+  margin-top: 3%;
+}
+li.media .media-left a img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-tabs > li > a {
+  margin-left: -2px;
+  margin-right: 2px;
+}
+div.custom_line {
+  background: #000000;
+  display: inline-block;
+  height: 5px;
+  min-height: 5px;
+  width: 100%;
+  border-bottom: 2px solid #000000u;
+}
+/*----------------
+5. footer_top_section
+---------------*/
+section.footer_top_section {
+  padding: 20px 0;
+}
+.footer_widget > h3 {
+  border-bottom: 2px solid #000000;
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+
+
+/*-----------------
+6. footer_social_area 
+------------*/
+section.footer_social_area {
+  background: #222629;
+  padding: 50px 0;
+}
+/* footer social icons */
+ul.footer_social_network {
+  display: inline;
+  list-style: outside none none;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.footer_social_network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.footer_social_network li a {
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 50px;
+   background: none repeat scroll 0 0 #389dc7;
+   -webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+
+.footer_social_network li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+	color: #fff;
+}
+.footer_social_network a.icoRss:hover {
+	background-color: #F56505;
+}
+.footer_social_network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.footer_social_network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.footer_social_network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.footer_social_network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.footer_social_network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+/*-----------------
+7. copyright 
+------------*/
+.copyright {
+  background: none repeat scroll 0 0 #e9e9e9;
+  color: #6d6d6d;
+  padding: 20px 0;
+}
+
+
+
+section.copyright p {
+  margin: 10px auto;
+}
+/* ========================================================== */
+/*                    Preloader                       */
+/* ========================================================== */
+  #preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99999999999; /* makes sure it stays on top */
+  }
+  
+  #status {
+    width:200px;
+    height:200px;
+    color:#fff;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../images/preloader.png); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+  }
+  #status p{text-align:center;}

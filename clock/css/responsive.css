@@ -1,0 +1,84 @@
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width:767px) { 
+
+/*-------------------
+3. nav_area 
+-------------*/
+  .navbar-nav > li {
+  border-right: 0px solid #eee;
+}
+.navbar-nav > li:last-child {
+  border-right: 0px solid #eee;
+}
+.navbar-nav > li {
+  border-bottom: 2px solid #eee;
+}
+.navbar-nav > li:last-child {
+  border-bottom: 0px solid #eee;
+}
+/* mobile menu */
+    .navbar-toggle { background-color: #389dc7 }
+    .navbar-toggle .icon-bar { background-color: #ffffff }
+	
+	/*--------------
+4. main_content_area
+------------------*/
+li.col-8{
+width: 10.5%;
+}
+ 
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+
+ /*-------------------
+3. nav_area 
+-------------*/
+ .navbar-nav > li > a {
+  font-size: 16px;
+  padding: 15px 23px;
+}
+  .navbar-nav > li {
+  border-right: 2px solid #eee;
+}
+.navbar-nav > li:last-child {
+  border-right: 0px solid #eee;
+}
+/*--------------
+4. main_content_area
+------------------*/
+li.col-8{
+display: inline-block;
+width: 11.5%;
+}
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) { 
+
+ /*-------------------
+3. nav_area 
+-------------*/
+.navbar-nav > li > a {
+  padding: 15px 30px;
+  font-size: 17px;
+}
+}
+
+
+
+/* Large devices (large desktops, 1200px and up) my desktop */
+@media (min-width:1200px) { 
+   
+}
+
+
+
+
+
+
+
+
+
